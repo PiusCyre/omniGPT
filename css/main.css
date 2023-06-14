@@ -526,9 +526,9 @@ footer .footer .logoo svg {
 
 @media only screen and (max-width: 1024px) {
   .active {
-    transform: translateX(0%) !important;
-    transition: transform 1s;
-    right: 0;
+    transform: translateY(0%) !important;
+    transition: transform 2s ease-in-out;
+    inset: 0;
     display: block;
   }
   .nav-con {
@@ -541,7 +541,7 @@ footer .footer .logoo svg {
     right: 0;
     width: 100%;
     height: 100dvh;
-    transform: translateX(100%);
+    transform: translateY(-200%);
     transition: transform 1s;
     display: flex;
     flex-direction: row;
@@ -554,7 +554,6 @@ footer .footer .logoo svg {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    align-content: center;
     display: block;
     position: relative;
   }
@@ -574,9 +573,8 @@ footer .footer .logoo svg {
   }
   .nav-con .navbar ul .exit-btn {
     display: block;
+    margin: auto;
     cursor: pointer;
-    float: right;
-    top: 0;
   }
   .nav-con .menu-btn {
     display: block;
