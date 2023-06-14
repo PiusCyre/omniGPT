@@ -50,6 +50,10 @@ body {
   text-decoration: none;
   color: white;
 }
+.nav-con .navbar li a:hover {
+  color: #1fe77e;
+  transition: color 0.75s;
+}
 
 .hero {
   display: grid;

@@ -51,6 +51,10 @@ body {
         display: block;
         text-decoration: none;
         color: white;
+        &:hover {
+          color: #1fe77e;
+          transition: color 0.75s;
+        }
       }
     }
   }
@@ -74,15 +78,6 @@ body {
     animation-play-state: ease-in;
     opacity: 0;
   }
-
-  //media queries!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  // .left-hero-sec {
-  //   order: 2;
-  // }
-
-  // .right-hero-sec {
-  //   order: 1;
-  // }
 
   .purple-text {
     font-size: 75px;
