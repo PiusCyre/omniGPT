@@ -539,10 +539,10 @@ html {
   }
   .nav-con .navbar {
     position: fixed;
-    max-width: 70%;
+    max-width: 100%;
     inset: 0;
     height: 100dvh;
-    transform: translateX(100%);
+    transform: translateX(200%);
     transition: transform 1s;
     display: flex;
     flex-direction: row;
