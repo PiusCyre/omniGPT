@@ -6,6 +6,7 @@ body {
   //background-color: grey;
   background-color: $bg-color;
   overflow-x: hidden;
+  // lol
 }
 
 .nav-con {
@@ -50,11 +51,6 @@ body {
         display: block;
         text-decoration: none;
         color: white;
-
-        &:hover {
-          color: $green-color;
-          transition: all 0.5s ease-in-out;
-        }
       }
     }
   }
@@ -78,15 +74,6 @@ body {
     animation-play-state: ease-in;
     opacity: 0;
   }
-
-  //media queries!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  // .left-hero-sec {
-  //   order: 2;
-  // }
-
-  // .right-hero-sec {
-  //   order: 1;
-  // }
 
   .purple-text {
     font-size: 75px;
@@ -594,10 +581,10 @@ html {
   }
   // class to show the nav
   .active {
-    transform: translateX(0) !important;
-    opacity: 1;
-    transition: transform 2s ease-in-out;
+    transform: translateX(0%) !important;
+    transition: transform 1s;
     right: 0;
+    // position: absolute;
     display: block;
   }
   .nav-con {
@@ -608,9 +595,10 @@ html {
       max-width: 70%;
       inset: 0;
       height: 100dvh;
-      max-width: 100%;
+
       transform: translateX(100%);
-      transition: transform 2s;
+      transition: transform 1s;
+
       display: flex;
       flex-direction: row;
       background-color: $bg-color;
@@ -618,8 +606,11 @@ html {
       display: none;
 
       ul {
-        display: grid;
-        grid-template-rows: auto auto auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
         display: block;
         padding: 30px;
         margin-left: 2rem;
@@ -637,11 +628,10 @@ html {
           }
         }
         .exit-btn {
-          display: inline-block;
+          display: block;
           cursor: pointer;
-          position: absolute;
-          top: 2rem;
-          right: 1.2rem;
+          float: right;
+          top: 0;
         }
       }
     }
