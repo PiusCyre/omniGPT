@@ -745,6 +745,7 @@ html {
     width: 265px;
     display: block;
     margin: auto;
+    margin-left: 0.7rem;
   }
   .post-hero-container .post-right-con .text-3 li {
     width: 265px;
@@ -801,9 +802,6 @@ html {
   }
   .post-hero-container .post-right-con {
     margin-left: 1rem;
-  }
-  .post-hero-container .post-right-con .text-3 ul {
-    margin-left: -2rem;
   }
   .pre-testi p {
     padding-inline: 10px;

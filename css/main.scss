@@ -817,6 +817,7 @@ html {
         width: 265px;
         display: block;
         margin: auto;
+        margin-left: 0.7rem;
         li {
           width: 265px;
           margin-bottom: 2em;
@@ -888,12 +889,6 @@ html {
   .post-hero-container {
     .post-right-con {
       margin-left: 1rem;
-
-      .text-3 {
-        ul {
-          margin-left: -2rem;
-        }
-      }
     }
   }
   .pre-testi {
