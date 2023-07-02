@@ -6,7 +6,6 @@ const navbar = document.querySelector(".navbar");
 
 function idanMove() {
   navbar.classList.add("active");
-  // navbar.style.transform = "translateX(0%)";
 }
 
 const idanMoveOut = () => {
